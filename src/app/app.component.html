@@ -1,0 +1,5 @@
+<h2 [innerHtml]='name'> hello there </h2>
+<input type="button" disabled="{{flag}}" value=" Interpolation "/><br><br>
+<input type="button" [disabled]='flag' value=" property binding "/>
+
+<p> Using the interpolation concept no matter what the flag property value the button is always disabled but in property binding the button changes as per flag property value</p>
